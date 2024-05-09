@@ -6,32 +6,36 @@
 	<title>Tabela</title>
 	<style>
 		* {
-			display: flexbox;
+			padding: 0;
+			margin: 0;
+			box-sizing: 0;
 		}
+
 		body{
 			margin-bottom: 30px;
 			padding: 30px;
 			border-bottom: 100px;
 			border-width: 10px;
-			max-width: 100%
+			max-width: 100vw;
+			max-height: 100%;
 		}
 		h1{
 			text-align: center;
-			font-size: 50px;
+			margin: 10px 0;
+			font-size: 1.5rem;
 		}
 		table {
 			display: inline-box;
 			margin: auto;
 			background-color: #F9C6BC;
 			width: 90%;
-			height: 70%;
-			border-radius: 10px, 10px, 0px; 0px;
+			height: 80vh;
 		}
 		tbody {
 			display: center;
 			width: 90%;
 			height: 90%;
-			height: 100px;
+			height: 100%;
 		}
 		#A {
 			background-color: #CE391C;
@@ -41,7 +45,6 @@
 		}
 		td {
 			width: 45%;
-			height: 90%;
 			padding: 10px;
 			text-align: center;
 		}

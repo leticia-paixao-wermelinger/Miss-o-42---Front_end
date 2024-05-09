@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#icon-menu:hover {
+	cursor: pointer;
+}
+
+ul {
+	display: none;
+}
+
+#icon-menu:hover + ul {
+	display: block;
+}
+
+body {
+	background-color: white;
+}
+
+
